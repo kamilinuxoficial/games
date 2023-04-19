@@ -9,11 +9,3 @@ Skeletal versions of Asteroids, Lunar Lander, Space Invaders and Snake in JavaSc
 * Docker integration By Kamilinux
 * https://kamilinux.com
 
-
-![Screenshot of Asteroids](asteroids/screenshot.png)
-
-![Screenshot of Lunar Lander](lunar-lander/screenshot.png)
-
-![Screenshot of Space Invaders](space-invaders/screenshot.png)
-
-![Screenshot of Snake](snake/screenshot.png)
