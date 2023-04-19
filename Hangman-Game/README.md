@@ -40,7 +40,8 @@ El contenedor seguirá vivo hasta que nosotros lo paremos, o hasta que haya un f
 ## BACKGROUND MODE
 
 Tambien puedes dejar el contenedor en segundo plano (deattach)
-
-    ```bash
-   docker run -d -p 80:80 hangman-game
-    ```
+   ```bash
+   docker run -p -d 80:80 hangman-game
+   ```
+  
+   
