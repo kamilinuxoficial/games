@@ -43,4 +43,4 @@ Tambien puedes dejar el contenedor en segundo plano (deattach)
 
     ```bash
    docker run -d -p 80:80 2048
-    ```
+   ```
