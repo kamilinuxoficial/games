@@ -41,6 +41,6 @@ El contenedor seguirá vivo hasta que nosotros lo paremos, o hasta que haya un f
 
 Tambien puedes dejar el contenedor en segundo plano (deattach)
 
-    ```bash
+   ```bash
    docker run -d -p 80:80 space-invaders
-    ```  
+   ```  
