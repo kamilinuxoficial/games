@@ -41,6 +41,6 @@ El contenedor seguirá vivo hasta que nosotros lo paremos, o hasta que haya un f
 
 Tambien puedes dejar el contenedor en segundo plano (deattach)
 
-    ```bash
-   docker run -p -d 80:80 javascript-pong
+   ```bash
+   docker run -p 80:80 javascript-pong
    ```
