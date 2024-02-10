@@ -10,16 +10,16 @@
 
    ```bash
    git clone https://github.com/kamilinuxoficial/games
-   cd games/javascript-delta
+   cd games/pacman
    ```
 2. Construye la imagen del contenedor utilizando el siguiente comando:
    ```bash
-   docker build -t javascript-delta .
+   docker build -t pac-man .
    ```
 
 3. Una vez que se haya construido la imagen, puedes ejecutar la aplicación dentro de un contenedor utilizando el siguiente comando:
    ```bash
-   docker run -p 80:80 javascript-delta
+   docker run -p 80:80 pac-man
    ```
 4. Ahora puedes acceder a la aplicación a través de tu navegador web en la siguiente [URL](http://localhost).
 
@@ -42,5 +42,5 @@ El contenedor seguirá vivo hasta que nosotros lo paremos, o hasta que haya un f
 Tambien puedes dejar el contenedor en segundo plano (deattach)
 
    ```bash
-   docker run -d -p 80:80 javascript-delta
+   docker run -d -p 80:80 pac-man
    ```
